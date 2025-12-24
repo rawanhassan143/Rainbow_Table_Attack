@@ -3,6 +3,15 @@
 ## Project Overview
 This educational project demonstrates how rainbow table attacks work and how password salting provides effective defense against them. The demonstration shows both the vulnerability of unsalted password hashes and the protection offered by proper salting techniques.
 
+
+## Tools & Requirements
+- **Python 3.x**: The programming language used for the demo
+- **hashlib library**: Built-in Python module for hashing (no installation needed)
+- **Command Line/Terminal**: To execute the Python script
+- **IDE (Optional)**: PyCharm, VSCode, or any text editor to view the code
+- **Git (Optional)**: To clone the repository from GitHub
+
+
 ## Team Members
 - Engy Ashraf Samy (20236017)
 - Hana Ayman Mohamed (20236116)
@@ -18,9 +27,15 @@ The main demonstration is in `RainbowTable_demo.py`. This Python script shows:
 4. Demonstration of stronger hash functions
 
 ## How to Run the Demo
-1. Ensure you have Python installed on your system
-2. Download or clone this repository
-3. Run the demo script:
+1. **Ensure you have Python 3.x installed** on your system
+2. **Download or clone this repository**:
+   ```bash
+   git clone https://github.com/rawanhassan143/Rainbow_Table_Attack.git
+
+ 3. Navigate to the project folder:
+   cd Rainbow_Table_Attack
+4. Run the demo script:
+python RainbowTable_demo.py
 
 ## Expected Output
 When you run the demo, you should see output similar to:
